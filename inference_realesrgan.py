@@ -17,7 +17,7 @@ def main():
         '-n',
         '--model_name',
         type=str,
-        default='RealESRGAN_x4plus',
+        default='RealESRGAN_x2',
         help=('Model names: RealESRGAN_x4 | RealESRNet_x4plus | RealESRGAN_x4plus_anime_6B | RealESRGAN_x2'
               'RealESRGANv2-anime-xsx2 | RealESRGANv2-animevideo-xsx2-nousm | RealESRGANv2-animevideo-xsx2'
               'RealESRGANv2-anime-xsx4 | RealESRGANv2-animevideo-xsx4-nousm | RealESRGANv2-animevideo-xsx4'))
